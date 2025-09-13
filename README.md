@@ -22,7 +22,7 @@ Contains reference implementations of SMPTE ST 2138 gRPC and RESTful APIs. Provi
 To run the gRPC server:
 
 ```bash
-docker run -d --name st2138-grp -p 6254:6254 ghcr.io/smpte/st2138-b:grpc
+docker run -d --name st2138-grpc -p 6254:6254 ghcr.io/smpte/st2138-b:grpc
 ```
 To run the RESTful server:
 
