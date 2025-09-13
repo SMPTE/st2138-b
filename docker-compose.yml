@@ -1,0 +1,11 @@
+services:
+  # change the first part of the port mappings to your desired external ports
+  st2138-grpc:
+    image: ghcr.io/smpte/st2138-b:grpc
+    ports:
+      - "6254:6254"
+
+  st2138-rest:
+    image: ghcr.io/smpte/st2138-b:rest
+    ports:
+      - "443:443"
